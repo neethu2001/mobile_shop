@@ -1,0 +1,1265 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>First Al Rabeah Line Trading LLC | Oman</title>
+
+<meta name="description" content="First Al Rabeah Line Trading LLC - Wholesale, retail, electronics, accessories and lifestyle products in Oman.">
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+:root {
+    --navy: #092d50;
+    --blue: #087da5;
+    --teal: #0799ad;
+    --light: #f5f8fb;
+    --dark: #172b3d;
+    --muted: #718096;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    color: var(--dark);
+    background: #fff;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Manrope', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* TOP BAR */
+
+.topbar {
+    background: var(--navy);
+    color: white;
+    font-size: 12px;
+    padding: 9px 0;
+}
+
+.topbar a {
+    color: white;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background: white;
+    padding: 12px 0;
+    box-shadow: 0 3px 15px rgba(0,0,0,.06);
+}
+
+.logo {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+}
+
+.brand-title {
+    font-weight: 800;
+    color: var(--navy);
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+.nav-link {
+    color: var(--dark);
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0 7px;
+}
+
+.nav-link:hover {
+    color: var(--teal);
+}
+
+.search-box {
+    background: #f1f4f7;
+    border-radius: 25px;
+    padding: 8px 15px;
+}
+
+.search-box input {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 140px;
+    font-size: 12px;
+}
+
+/* HERO */
+
+.hero {
+    background: linear-gradient(110deg,#f0f5fa,#eaf3f8);
+    padding: 55px 0;
+    overflow: hidden;
+}
+
+.hero h1 {
+    color: var(--navy);
+    font-size: clamp(32px,4.5vw,55px);
+    font-weight: 800;
+    line-height: 1.15;
+}
+
+.hero h1 span {
+    color: var(--blue);
+}
+
+.hero p {
+    color: #66788a;
+    font-size: 15px;
+    line-height: 1.8;
+    max-width: 480px;
+}
+
+.hero-image {
+    width: 100%;
+    height: 390px;
+    object-fit: contain;
+}
+
+.btn-main {
+    background: var(--blue);
+    color: white;
+    padding: 13px 26px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+}
+
+.btn-main:hover {
+    background: var(--navy);
+    color: white;
+}
+
+.btn-secondary-custom {
+    border: 1px solid var(--navy);
+    color: var(--navy);
+    padding: 13px 24px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.btn-secondary-custom:hover {
+    background: var(--navy);
+    color: white;
+}
+
+/* BENEFITS */
+
+.benefits {
+    padding: 19px 0;
+    border-bottom: 1px solid #edf0f3;
+}
+
+.benefit-item {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--navy);
+}
+
+.benefit-item i {
+    color: var(--blue);
+    font-size: 19px;
+    margin-right: 7px;
+}
+
+/* SECTION TITLES */
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.section-heading h2 {
+    font-size: 29px;
+    font-weight: 800;
+    color: var(--navy);
+}
+
+.section-heading p {
+    color: var(--muted);
+    font-size: 13px;
+}
+
+/* CATEGORIES */
+
+.categories-section {
+    padding: 70px 0;
+}
+
+.category-card {
+    border: 1px solid #edf0f3;
+    background: white;
+    border-radius: 12px;
+    padding: 13px;
+    height: 100%;
+    text-align: center;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+    border-color: #b7dce5;
+}
+
+.category-card img {
+    width: 100%;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.category-card h6 {
+    color: var(--navy);
+    font-size: 12px;
+    font-weight: 800;
+    margin-top: 13px;
+    line-height: 1.5;
+}
+
+/* PRODUCTS */
+
+.products-section {
+    padding: 70px 0;
+    background: var(--light);
+}
+
+.product-card {
+    background: white;
+    border: 1px solid #e9eef2;
+    border-radius: 12px;
+    padding: 12px;
+    height: 100%;
+    transition: .3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+.product-card img {
+    width: 100%;
+    height: 185px;
+    object-fit: contain;
+    background: #f7f9fb;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.product-card h6 {
+    color: var(--navy);
+    font-size: 13px;
+    font-weight: 800;
+    margin-top: 14px;
+}
+
+.product-card p {
+    font-size: 11px;
+    color: var(--muted);
+    min-height: 34px;
+}
+
+.product-tag {
+    color: var(--teal);
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.btn-enquire {
+    background: #eaf6f8;
+    color: var(--blue);
+    border: none;
+    border-radius: 5px;
+    padding: 9px;
+    font-size: 11px;
+    font-weight: 800;
+    width: 100%;
+}
+
+.btn-enquire:hover {
+    background: var(--blue);
+    color: white;
+}
+
+/* WHOLESALE BANNER */
+
+.wholesale {
+    background: linear-gradient(110deg,var(--navy),#087da5);
+    padding: 55px 0;
+    color: white;
+}
+
+.wholesale h2 {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.wholesale p {
+    color: #d9e8f0;
+    font-size: 14px;
+}
+
+/* SERVICES */
+
+.services {
+    padding: 70px 0;
+}
+
+.service-card {
+    padding: 28px 20px;
+    border: 1px solid #edf0f3;
+    border-radius: 12px;
+    text-align: center;
+    height: 100%;
+}
+
+.service-card i {
+    color: var(--blue);
+    font-size: 34px;
+}
+
+.service-card h5 {
+    font-size: 15px;
+    color: var(--navy);
+    font-weight: 800;
+    margin-top: 15px;
+}
+
+.service-card p {
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+/* ABOUT */
+
+.about-section {
+    background: var(--light);
+    padding: 70px 0;
+}
+
+.about-section h2 {
+    color: var(--navy);
+    font-weight: 800;
+}
+
+.about-section p {
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+.about-logo {
+    width: 100%;
+    max-width: 350px;
+    object-fit: contain;
+}
+
+/* CONTACT */
+
+.contact-section {
+    padding: 70px 0;
+}
+
+.contact-box {
+    border: 1px solid #e9eef2;
+    border-radius: 12px;
+    padding: 25px;
+    height: 100%;
+}
+
+.contact-item {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 23px;
+}
+
+.contact-item i {
+    color: var(--blue);
+    font-size: 21px;
+}
+
+.contact-item h6 {
+    color: var(--navy);
+    font-weight: 800;
+    font-size: 13px;
+}
+
+.contact-item p {
+    color: var(--muted);
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+/* FOOTER */
+
+footer {
+    background: #071f37;
+    color: #c7d2dc;
+    padding: 55px 0 20px;
+}
+
+footer h5 {
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: #c7d2dc;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 12px;
+}
+
+footer a:hover {
+    color: #48c4d1;
+}
+
+.footer-bottom {
+    border-top: 1px solid #294258;
+    margin-top: 35px;
+    padding-top: 20px;
+    font-size: 11px;
+}
+
+/* WHATSAPP FLOAT */
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 22px;
+    right: 22px;
+    z-index: 999;
+    background: #20bd5a;
+    color: white;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 27px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.2);
+}
+
+.whatsapp-float:hover {
+    background: #128c43;
+    color: white;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px) {
+
+    .hero {
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    .hero p {
+        margin: auto;
+    }
+
+    .hero-image {
+        height: 250px;
+        margin-top: 25px;
+    }
+
+    .section-heading h2 {
+        font-size: 23px;
+    }
+
+    .category-card img {
+        height: 100px;
+    }
+
+    .product-card img {
+        height: 140px;
+    }
+
+    .brand-title {
+        font-size: 11px;
+    }
+
+    .search-box {
+        margin-top: 12px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- TOP BAR -->
+
+<div class="topbar">
+<div class="container d-flex justify-content-between align-items-center">
+    <span><i class="bi bi-truck me-2"></i>Wholesale & Retail Trading in Oman</span>
+    <span>
+        <a href="mailto:firstalrabeahlinelinetrading@gmail.com">
+        <i class="bi bi-envelope"></i> Contact Us
+        </a>
+    </span>
+</div>
+</div>
+
+<!-- NAVIGATION -->
+
+<nav class="navbar navbar-expand-lg sticky-top">
+<div class="container">
+
+<a class="navbar-brand d-flex align-items-center gap-2" href="#home">
+    <img src="logo.png" class="logo" alt="First Al Rabeah Logo">
+    <div class="brand-title">
+        FIRST AL RABEAH<br>
+        LINE TRADING LLC
+    </div>
+</a>
+
+<button class="navbar-toggler" type="button"
+data-bs-toggle="collapse" data-bs-target="#mainNav">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="mainNav">
+
+<ul class="navbar-nav ms-auto align-items-lg-center">
+
+<li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
+<li class="nav-item"><a class="nav-link" href="#categories">CATEGORIES</a></li>
+<li class="nav-item"><a class="nav-link" href="#products">SHOP</a></li>
+<li class="nav-item"><a class="nav-link" href="#services">SERVICES</a></li>
+<li class="nav-item"><a class="nav-link" href="#about">ABOUT US</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+
+</ul>
+
+</div>
+</div>
+</nav>
+
+<!-- HERO SECTION -->
+
+<section class="hero" id="home">
+
+<div class="container">
+
+<div class="row align-items-center">
+
+<div class="col-lg-6">
+
+<span class="text-uppercase fw-bold small" style="color:var(--teal);">
+FIRST AL RABEAH LINE TRADING LLC
+</span>
+
+<h1 class="mt-3">
+Technology & Lifestyle<br>
+<span>That Move You Forward.</span>
+</h1>
+
+<p class="mt-3">
+Discover a wide range of smartphones, electronics,
+computer accessories, audio products, lifestyle items
+and much more.
+Your trusted wholesale and retail trading partner in Oman.
+</p>
+
+<div class="d-flex flex-wrap gap-3 mt-4">
+
+<a href="#categories" class="btn btn-main">
+EXPLORE PRODUCTS <i class="bi bi-arrow-right ms-2"></i>
+</a>
+
+<a href="#contact" class="btn btn-secondary-custom">
+CONTACT US
+</a>
+
+</div>
+
+</div>
+
+<div class="col-lg-6 text-center">
+
+<img
+src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=900"
+class="hero-image"
+alt="Latest smartphone and technology products">
+
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- BENEFITS -->
+
+<section class="benefits">
+<div class="container">
+<div class="row g-3">
+
+<div class="col-6 col-lg-3 benefit-item">
+<i class="bi bi-box-seam"></i> Wholesale Supply
+</div>
+
+<div class="col-6 col-lg-3 benefit-item">
+<i class="bi bi-shop"></i> Retail Products
+</div>
+
+<div class="col-6 col-lg-3 benefit-item">
+<i class="bi bi-tools"></i> After-Sales Support
+</div>
+
+<div class="col-6 col-lg-3 benefit-item">
+<i class="bi bi-headset"></i> Customer Assistance
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- CATEGORIES -->
+
+<section class="categories-section" id="categories">
+
+<div class="container">
+
+<div class="section-heading">
+<h2>Shop by Categories</h2>
+<p>Explore our wide range of products and collections</p>
+</div>
+
+<div class="row g-3">
+
+<div class="col-6 col-md-4 col-lg-3">
+<div class="category-card" data-category="mobile">
+<img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400" alt="Mobile phones">
+<h6>Mobile Phones, Tabs & Accessories</h6>
+</div>
+</div>
+
+<div class="col-6 col-md-4 col-lg-3">
+<div class="category-card" data-category="computer">
+<img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400" alt="Computer accessories">
+<h6>Computer Accessories & Storage</h6>
+</div>
+</div>
+
+<div class="col-6 col-md-4 col-lg-3">
+<div class="category-card" data-category="network">
+<img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400" alt="Networking equipment">
+<h6>Networking & Smart Connectivity</h6>
+</div>
+</div>
+
+<div class="col-6 col-md-4 col-lg-3">
+<div class="category-card" data-category="audio">
+<img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400" alt="Audio products">
+<h6>Audio, Microphones & Speakers</h6>
+</div>
+</div>
+
+<div class="col-6 col-md-4 col-lg-3">
+<div class="category-card" data-category="camera">
+<img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400" alt="Cameras">
+<h6>Cameras, Projectors & Lighting</h6>
+</div>
+</div>
+
+<div class="col-6 col-md-4 col-lg-3">
+<div class="category-card" data-category="electronics">
+<img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?w=400" alt="Electronics">
+<h6>Electronics, Power & Appliances</h6>
+</div>
+</div>
+
+<div class="col-6 col-md-4 col-lg-3">
+<div class="category-card" data-category="automotive">
+<img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=400" alt="Automotive accessories">
+<h6>Automotive & Vehicle Accessories</h6>
+</div>
+</div>
+
+<div class="col-6 col-md-4 col-lg-3">
+<div class="category-card" data-category="gaming">
+<img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=400" alt="Gaming">
+<h6>Gaming Gear</h6>
+</div>
+</div>
+
+<div class="col-6 col-md-4 col-lg-3">
+<div class="category-card" data-category="fashion">
+<img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400" alt="Lifestyle watches">
+<h6>Fashion, Lifestyle & Accessories</h6>
+</div>
+</div>
+
+<div class="col-6 col-md-4 col-lg-3">
+<div class="category-card" data-category="garments">
+<img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=400" alt="Garments">
+<h6>Garments & Apparel</h6>
+</div>
+</div>
+
+<div class="col-6 col-md-4 col-lg-3">
+<div class="category-card" data-category="toys">
+<img src="https://images.unsplash.com/photo-1558060370-d644479cb6f7?w=400" alt="Toys">
+<h6>Toys & Kids</h6>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- PRODUCTS -->
+
+<section class="products-section" id="products">
+
+<div class="container">
+
+<div class="section-heading">
+<h2>Featured Product Categories</h2>
+<p>Explore examples from our product portfolio</p>
+</div>
+
+<div class="row g-4" id="productGrid">
+
+<!-- PRODUCT 1 -->
+
+<div class="col-6 col-md-4 col-lg-3 product-item" data-category="mobile">
+<div class="product-card">
+<img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=500" alt="Smartphones">
+<h6>Smartphones & Tablets</h6>
+<p>Mobile devices and accessories</p>
+<div class="product-tag">Mobile Collection</div>
+<button class="btn-enquire mt-3" onclick="enquire('Smartphones & Tablets')">
+<i class="bi bi-whatsapp"></i> Enquire Now
+</button>
+</div>
+</div>
+
+<!-- PRODUCT 2 -->
+
+<div class="col-6 col-md-4 col-lg-3 product-item" data-category="audio">
+<div class="product-card">
+<img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500" alt="Headphones">
+<h6>Headphones & Earbuds</h6>
+<p>Wireless audio and headsets</p>
+<div class="product-tag">Audio Collection</div>
+<button class="btn-enquire mt-3" onclick="enquire('Headphones & Earbuds')">
+<i class="bi bi-whatsapp"></i> Enquire Now
+</button>
+</div>
+</div>
+
+<!-- PRODUCT 3 -->
+
+<div class="col-6 col-md-4 col-lg-3 product-item" data-category="computer">
+<div class="product-card">
+<img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500" alt="Laptop">
+<h6>Computer Accessories</h6>
+<p>Computer accessories and connectivity</p>
+<div class="product-tag">Computer Collection</div>
+<button class="btn-enquire mt-3" onclick="enquire('Computer Accessories')">
+<i class="bi bi-whatsapp"></i> Enquire Now
+</button>
+</div>
+</div>
+
+<!-- PRODUCT 4 -->
+
+<div class="col-6 col-md-4 col-lg-3 product-item" data-category="camera">
+<div class="product-card">
+<img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500" alt="Camera">
+<h6>Cameras & Accessories</h6>
+<p>Camera products and equipment</p>
+<div class="product-tag">Camera Collection</div>
+<button class="btn-enquire mt-3" onclick="enquire('Cameras & Accessories')">
+<i class="bi bi-whatsapp"></i> Enquire Now
+</button>
+</div>
+</div>
+
+<!-- PRODUCT 5 -->
+
+<div class="col-6 col-md-4 col-lg-3 product-item" data-category="gaming">
+<div class="product-card">
+<img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=500" alt="Gaming products">
+<h6>Gaming Accessories</h6>
+<p>Gaming gear and controllers</p>
+<div class="product-tag">Gaming Collection</div>
+<button class="btn-enquire mt-3" onclick="enquire('Gaming Accessories')">
+<i class="bi bi-whatsapp"></i> Enquire Now
+</button>
+</div>
+</div>
+
+<!-- PRODUCT 6 -->
+
+<div class="col-6 col-md-4 col-lg-3 product-item" data-category="fashion">
+<div class="product-card">
+<img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500" alt="Watches">
+<h6>Watches & Smartwatches</h6>
+<p>Classic and digital watches</p>
+<div class="product-tag">Lifestyle Collection</div>
+<button class="btn-enquire mt-3" onclick="enquire('Watches & Smartwatches')">
+<i class="bi bi-whatsapp"></i> Enquire Now
+</button>
+</div>
+</div>
+
+<!-- PRODUCT 7 -->
+
+<div class="col-6 col-md-4 col-lg-3 product-item" data-category="electronics">
+<div class="product-card">
+<img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?w=500" alt="Electronics">
+<h6>Electronics & Appliances</h6>
+<p>Power and home electronics</p>
+<div class="product-tag">Electronics Collection</div>
+<button class="btn-enquire mt-3" onclick="enquire('Electronics & Appliances')">
+<i class="bi bi-whatsapp"></i> Enquire Now
+</button>
+</div>
+</div>
+
+<!-- PRODUCT 8 -->
+
+<div class="col-6 col-md-4 col-lg-3 product-item" data-category="automotive">
+<div class="product-card">
+<img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500" alt="Automotive">
+<h6>Vehicle Accessories</h6>
+<p>Automotive accessories and mounts</p>
+<div class="product-tag">Automotive Collection</div>
+<button class="btn-enquire mt-3" onclick="enquire('Vehicle Accessories')">
+<i class="bi bi-whatsapp"></i> Enquire Now
+</button>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- WHOLESALE -->
+
+<section class="wholesale">
+<div class="container">
+<div class="row align-items-center g-4">
+
+<div class="col-lg-8">
+<h2>Looking for Wholesale Supply?</h2>
+<p class="mb-0">
+We welcome wholesale buyers, retailers, resellers and businesses.
+Contact us for your product sourcing and bulk supply requirements.
+</p>
+</div>
+
+<div class="col-lg-4 text-lg-end">
+<a href="https://wa.me/96875262787?text=Hello%20First%20Al%20Rabeah%2C%20I%20am%20interested%20in%20wholesale%20supply."
+target="_blank" rel="noopener" class="btn btn-light px-4 py-3 fw-bold">
+WHOLESALE ENQUIRY <i class="bi bi-arrow-right ms-2"></i>
+</a>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- SERVICES -->
+
+<section class="services" id="services">
+
+<div class="container">
+
+<div class="section-heading">
+<h2>Our Business Services</h2>
+<p>Serving businesses and individual customers across Oman</p>
+</div>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="service-card">
+<i class="bi bi-box-seam"></i>
+<h5>Wholesale Trading</h5>
+<p>Product sourcing and supply enquiries for retailers, resellers and business buyers.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="service-card">
+<i class="bi bi-shop"></i>
+<h5>Retail Trading</h5>
+<p>A diverse selection of products for individual customers and everyday requirements.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="service-card">
+<i class="bi bi-tools"></i>
+<h5>After-Sales & Professional Services</h5>
+<p>Product-related support and professional service enquiries.</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- ABOUT -->
+
+<section class="about-section" id="about">
+
+<div class="container">
+
+<div class="row align-items-center g-5">
+
+<div class="col-lg-5 text-center">
+<img src="logo.png" class="about-logo" alt="First Al Rabeah company logo">
+</div>
+
+<div class="col-lg-7">
+
+<h2>About First Al Rabeah</h2>
+
+<p class="mt-3">
+First Al Rabeah Line Trading LLC is a trading company
+based in Oman, serving wholesale buyers, retail customers,
+businesses and individual service clients.
+</p>
+
+<p>
+Our portfolio covers mobile phones, computer accessories,
+networking products, audio equipment, cameras, electronics,
+automotive accessories, gaming, fashion, garments and toys.
+</p>
+
+<p>
+We focus on wholesale, retail and after-sales /
+professional services across our product categories.
+</p>
+
+<a href="#contact" class="btn btn-main mt-2">
+GET IN TOUCH
+</a>
+
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact-section" id="contact">
+
+<div class="container">
+
+<div class="section-heading">
+<h2>Contact Us</h2>
+<p>Have a product enquiry? We would love to hear from you.</p>
+</div>
+
+<div class="row g-4">
+
+<div class="col-lg-5">
+
+<div class="contact-box">
+
+<h5 class="fw-bold mb-4" style="color:var(--navy)">
+Company Information
+</h5>
+
+<div class="contact-item">
+<i class="bi bi-building"></i>
+<div>
+<h6>Company Name</h6>
+<p>First Al Rabeah Line Trading LLC</p>
+</div>
+</div>
+
+<div class="contact-item">
+<i class="bi bi-geo-alt"></i>
+<div>
+<h6>Business Address</h6>
+<p>
+Al Hambar, Suhar Municipality,<br>
+North Al Batinah Governorate, Oman.<br>
+Block 4 (Al Rabia) / 2238,<br>
+Plot 77, Building 2210,<br>
+Shop 1991.
+</p>
+</div>
+</div>
+
+<div class="contact-item">
+<i class="bi bi-whatsapp"></i>
+<div>
+<h6>WhatsApp</h6>
+<p><a href="https://wa.me/96875262787" target="_blank" rel="noopener">+968 75262787</a></p>
+</div>
+</div>
+
+<div class="contact-item">
+<i class="bi bi-envelope"></i>
+<div>
+<h6>Email</h6>
+<p>
+<a href="mailto:firstalrabeahlinelinetrading@gmail.com">
+firstalrabeahlinelinetrading@gmail.com
+</a>
+</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="col-lg-7">
+
+<div class="contact-box">
+
+<h5 class="fw-bold mb-4" style="color:var(--navy)">
+Send an Enquiry
+</h5>
+
+<form id="contactForm">
+
+<div class="row g-3">
+
+<div class="col-md-6">
+<label class="form-label small fw-bold">Your Name</label>
+<input type="text" class="form-control" id="customerName" required>
+</div>
+
+<div class="col-md-6">
+<label class="form-label small fw-bold">Phone Number</label>
+<input type="tel" class="form-control" id="customerPhone" required>
+</div>
+
+<div class="col-12">
+<label class="form-label small fw-bold">Email Address</label>
+<input type="email" class="form-control" id="customerEmail">
+</div>
+
+<div class="col-12">
+<label class="form-label small fw-bold">Enquiry Type</label>
+<select class="form-select" id="enquiryType" required>
+<option value="">Select enquiry</option>
+<option>Wholesale Enquiry</option>
+<option>Retail Product Enquiry</option>
+<option>After-Sales Service</option>
+<option>Professional Services</option>
+<option>Other</option>
+</select>
+</div>
+
+<div class="col-12">
+<label class="form-label small fw-bold">Message</label>
+<textarea class="form-control" id="customerMessage" rows="4" required></textarea>
+</div>
+
+<div class="col-12">
+<button type="submit" class="btn btn-main w-100">
+SEND ENQUIRY <i class="bi bi-send ms-2"></i>
+</button>
+</div>
+
+</div>
+
+</form>
+
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="container">
+
+<div class="row g-4">
+
+<div class="col-lg-5">
+
+<div class="d-flex align-items-center gap-3 mb-3">
+<img src="logo.png" width="65" height="65" style="object-fit:contain;background:white;border-radius:8px;padding:3px;" alt="Company logo">
+<h5 class="mb-0">FIRST AL RABEAH<br>LINE TRADING LLC</h5>
+</div>
+
+<p class="small">
+Your trading partner for electronics, accessories,
+lifestyle products and more in Oman.
+</p>
+
+</div>
+
+<div class="col-6 col-lg-2">
+
+<h5>Quick Links</h5>
+<a href="#home">Home</a>
+<a href="#categories">Categories</a>
+<a href="#products">Shop</a>
+<a href="#about">About Us</a>
+<a href="#contact">Contact</a>
+
+</div>
+
+<div class="col-6 col-lg-2">
+
+<h5>Our Business</h5>
+<a href="#services">Wholesale</a>
+<a href="#services">Retail</a>
+<a href="#services">After-Sales Support</a>
+<a href="#services">Professional Services</a>
+
+</div>
+
+<div class="col-lg-3">
+
+<h5>Contact Details</h5>
+<a href="tel:+96875262787">+968 75262787</a>
+<a href="mailto:firstalrabeahlinelinetrading@gmail.com">
+Email Us
+</a>
+<a href="https://wa.me/96875262787" target="_blank" rel="noopener">
+WhatsApp Us
+</a>
+
+</div>
+
+</div>
+
+<div class="footer-bottom text-center">
+© <span id="year"></span> First Al Rabeah Line Trading LLC. All Rights Reserved. | Oman
+</div>
+
+</div>
+</footer>
+
+<!-- FLOATING WHATSAPP -->
+
+<a href="https://wa.me/96875262787"
+class="whatsapp-float"
+target="_blank"
+rel="noopener"
+aria-label="Chat on WhatsApp">
+<i class="bi bi-whatsapp"></i>
+</a>
+
+<!-- JAVASCRIPT -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+
+// Current year
+document.getElementById("year").textContent = new Date().getFullYear();
+
+// WhatsApp product enquiry
+function enquire(product) {
+
+    let message = "Hello First Al Rabeah Line Trading LLC, I am interested in " + product + ". Please share the details and pricing.";
+
+    let url = "https://wa.me/96875262787?text=" + encodeURIComponent(message);
+
+    window.open(url, "_blank");
+}
+
+// Category click filtering
+document.querySelectorAll(".category-card").forEach(card => {
+
+    card.addEventListener("click", function() {
+
+        const category = this.dataset.category;
+
+        filterProducts(category);
+
+        document.getElementById("products").scrollIntoView({
+            behavior: "smooth"
+        });
+
+    });
+
+});
+
+// Filter product cards
+function filterProducts(category) {
+
+    document.querySelectorAll(".product-item").forEach(product => {
+
+        if (category === "all" || product.dataset.category === category) {
+
+            product.style.display = "";
+
+        } else {
+
+            product.style.display = "none";
+
+        }
+
+    });
+
+}
+
+// Contact form - opens email application
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+
+    e.preventDefault();
+
+    const name = document.getElementById("customerName").value;
+    const phone = document.getElementById("customerPhone").value;
+    const email = document.getElementById("customerEmail").value;
+    const type = document.getElementById("enquiryType").value;
+    const message = document.getElementById("customerMessage").value;
+
+    const subject = encodeURIComponent("Website Enquiry - " + type);
+
+    const body = encodeURIComponent(
+        "Name: " + name + "\n" +
+        "Phone: " + phone + "\n" +
+        "Email: " + email + "\n" +
+        "Enquiry Type: " + type + "\n\n" +
+        "Message: " + message
+    );
+
+    window.location.href =
+        "mailto:firstalrabeahlinelinetrading@gmail.com?subject=" +
+        subject + "&body=" + body;
+
+});
+
+</script>
+
+</body>
+</html>
